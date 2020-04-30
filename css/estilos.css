@@ -1,19 +1,22 @@
-body{
-	background: #dimgray;
+body {
+	font:15px Arial, Helvetica;
+	padding: 0;
+	margin:0;
+	background-color: #E6E6E6;
 }
-h2{
-	font-size: 1.2px;
-}
+
 .cabecera{
 	background-color: #A1E4F8;
 	height: 168px;
 	text-align: center;
 	padding: 10px 5px 0px 10px;
+	border-bottom: 5px solid #1293d4;
 
 }
 .cabecera img{
 	width: 10%;
 	float: left;
+	border-bottom: 5px solid #1293d4;
 
 }
 .titulo{
@@ -43,69 +46,112 @@ h2{
 	background-color: #0587AD; 
 }
 
-.central {
-	padding: 0;
-	margin: 0;
-	float: centers;
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
-.central aside{
-	float: center;
-	padding: 60px ; 
-	display: inline-block;
+.imgP{
+	min-height: 400px;
+	background: url(../img/fondo.JPG) no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+.imgP h1{
+	margin-top: 100px;
+	font-size: 55px;
+	font: oblique bold 120% cursive;
+}
+.imgP  p{
+	font-size: 20px;
+	color: #1293d4;
+	font: oblique bold 120% cursive;
 
 }
-.central h1{
-	text-align: center;
+.Educa{
+	padding: 15px;
+	color: #fff;
+	background:#A1E4F8;
 }
-.central p{
-	text-align: center;
+
+#temas1{
+	margin-top: 20px;
+
 }
-.derecha{
-	width: 40%;
+#temas1 h1{
+	text-align:center;
+	font: oblique bold 120% cursive;
+}
+#temas1 .Tema1{
 	float: left;
+	text-align:center;
+	width: 30%;
+	padding: 100px;
+}
+#temas1 .Tema1 img{
+	width: 400px;
+}
+
+#video{
+	margin-top: 10px;
+	width: 60%;
+	padding: 5px;
+}
+
+#video .video1 iframe{
+	width: 700px;
+	height: 400px;
+
+}
+
+
+
+#temas2{
+	margin-top: 20px;
+
+
+}
+#temas2 h1{
+	text-align:center;
+	font: oblique bold 120% cursive;
+}
+#temas2 .Tema2{
+	float: left;
+	text-align:center;
+	width: 25%;
+	padding: 20px;
 	
 }
-
-.isquierda{
-	width: 40%;
-	float: right;
-
+#temas2 .Tema2 img{
+	width: 30px;
 }
 
-.imgE{
-	display:block;
-    margin:auto;
-	width: 200px; height: 200px;
+#video{
+	margin-top: 10px;
+	width: 60%;
+	padding: 5px;
+}
+#temas2 .Tema2 img{
+	width:250px;
+    height:25s0px;
+	border-radius:150px;
 }
 
-article{
-	float: center;
-	text-align: justify;
-}
-.diferencias{
-	width:200px; 
-    height:200px; 
-    top: 50%; 
-    left: 50%; 
-    margin-top: -100px; 
-    margin-left: -100px 
-    
-}
-.video p{
-	text-align: center;
-}	
-p {
-  font: oblique bold 120% cursive;
-  text-align: center;
-}
-
-aside iframe{
-	width: 500px; height: 500px;
-	display:block;
-	 margin:auto;
-}
 
 footer{
-	font-size:  1.5cm;
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: #1293d4;
 	text-align:center;
+	font: oblique bold 120% cursive;
+}
+.contenedor2{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+h3{
+	font: oblique bold 120% cursive;
 }
