@@ -1,0 +1,111 @@
+body{
+	background: #dimgray;
+}
+h2{
+	font-size: 1.2px;
+}
+.cabecera{
+	background-color: #A1E4F8;
+	height: 168px;
+	text-align: center;
+	padding: 10px 5px 0px 10px;
+
+}
+.cabecera img{
+	width: 10%;
+	float: left;
+
+}
+.titulo{
+	font-size: 1.4cm;
+
+}
+
+.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu  li{
+	display: inline-block;
+}
+
+.menu  li a{
+	color: #000102;
+	display: block;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+
+.menu  li a:hover{
+	background-color: #0587AD; 
+}
+
+.central {
+	padding: 0;
+	margin: 0;
+	float: centers;
+}
+.central aside{
+	float: center;
+	padding: 60px ; 
+	display: inline-block;
+
+}
+.central h1{
+	text-align: center;
+}
+.central p{
+	text-align: center;
+}
+.derecha{
+	width: 40%;
+	float: left;
+	
+}
+
+.isquierda{
+	width: 40%;
+	float: right;
+
+}
+
+.imgE{
+	display:block;
+    margin:auto;
+	width: 200px; height: 200px;
+}
+
+article{
+	float: center;
+	text-align: justify;
+}
+.diferencias{
+	width:200px; 
+    height:200px; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: -100px; 
+    margin-left: -100px 
+    
+}
+.video p{
+	text-align: center;
+}	
+p {
+  font: oblique bold 120% cursive;
+  text-align: center;
+}
+
+aside iframe{
+	width: 500px; height: 500px;
+	display:block;
+	 margin:auto;
+}
+
+footer{
+	font-size:  1.5cm;
+	text-align:center;
+}
